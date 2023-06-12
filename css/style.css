@@ -80,3 +80,231 @@
     margin-top: 80px;
     text-align: center;
   }
+
+  .form {
+    margin-top: 80px;
+    padding: 40px;
+    background-color: #fff;
+  }
+  
+  .form__block {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  
+  .form__field {
+    margin-bottom: 20px;
+  }
+  
+  .form__label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  .form__input {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form__input:focus {
+    outline: none;
+    border-color: #196dc8;
+  }
+  
+  .form__input--password {
+    letter-spacing: 0.3em;
+  }
+  
+  .form__button {
+    display: block;
+    margin-top: 24px;
+    padding: 12px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #196dc8;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form__button:hover {
+    background-color: #1950a6;
+  }
+  
+
+  .notification {
+    max-width: 320px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 16px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .notification--success {
+    background-color: #dfffdf;
+    border: 1px solid #5db65d;
+    color: #4d944d;
+  }
+  
+  .notification--error {
+    background-color: #ffd9d9;
+    border: 1px solid #e25c5c;
+    color: #9e1f1f;
+  }
+
+  .form {
+    margin-top: 80px;
+    padding: 40px;
+    background-color: #fff;
+  }
+  
+  .form__block {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  
+  .form__field {
+    margin-bottom: 20px;
+  }
+  
+  .form__label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  .form__input {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form__input:focus {
+    outline: none;
+    border-color: #196dc8;
+  }
+  
+  .form__input--password {
+    letter-spacing: 0.3em;
+  }
+  
+  .form__button {
+    display: block;
+    margin-top: 24px;
+    padding: 12px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #196dc8;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form__button:hover {
+    background-color: #1950a6;
+  }
+  
+  .notification {
+    max-width: 320px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 16px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .notification--success {
+    background-color: #dfffdf;
+    border: 1px solid #5db65d;
+    color: #4d944d;
+  }
+  
+  .notification--error {
+    background-color: #ffd9d9;
+    border: 1px solid #e25c5c;
+    color: #9e1f1f;
+  }
+
+  .cabinet {
+    margin-top: 80px;
+    padding: 40px;
+    background-color: #fff;
+  }
+  
+  .cabinet__title {
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .cabinet__info {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cabinet__info-item:first-child {
+    margin-right: 40px;
+  }
+  
+  .cabinet__info-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .cabinet__info-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cabinet__info-item {
+    margin-bottom: 16px;
+  }
+  
+  .cabinet__info-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .cabinet__info-label {
+    font-weight: 600;
+  }
+  
+  .cabinet__button {
+    display: block;
+    margin-top: 24px;
+    padding: 12px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #196dc8;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cabinet__button:hover {
+    background-color: #1950a6;
+  }
