@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Личный кабинет | Авиакомпания</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cabinet.css">
+    <script src="js/main.js"></script>
   </head>
   <body>
     <header>
@@ -12,15 +13,6 @@
         <ul class="nav__list">
           <li class="nav__item">
             <a href="index.html" class="nav__link">Главная</a>
-          </li>
-          <li class="nav__item">
-            <a href="login.html" class="nav__link">Вход</a>
-          </li>
-          <li class="nav__item">
-            <a href="registration.html" class="nav__link">Регистрация</a>
-          </li>
-          <li class="nav__item nav__item--active">
-            <a href="#" class="nav__link">Личный кабинет</a>
           </li>
         </ul>
         <button type="button" class="nav-toggle">
@@ -44,24 +36,23 @@
               <li class="cabinet__info-item"><span class="cabinet__info-label">Фамилия:</span> Иванов</li>
               <li class="cabinet__info-item"><span class="cabinet__info-label">Email:</span> ivan.ivanov@mail.ru</li>
             </ul>
-            <button type="button" class="cabinet__button">Изменить данные</button>
+            <button type="button" class="cabinet__button" onclick="Data()">Изменить данные</button>
           </div>
           <div class="cabinet__info-item">
             <h3 class="cabinet__info-title">Билеты на рейсы</h3>
             <ul class="cabinet__info-list">
               <li class="cabinet__info-item"><span class="cabinet__info-label">Дата вылета:</span> 22.05.2021</li>
               <li class="cabinet__info-item"><span class="cabinet__info-label">Место вылета:</span> Москва</li>
-              <li class="cabinet__info-item"><span class="cabinet__info-label">Место прибытия:</span> Рим</li>
+              <li class="cabinet__info-item"><span class="cabinet__info-label">Место прибытия:</span> Омск</li>
               <li class="cabinet__info-item"><span class="cabinet__info-label">Номер рейса:</span> XY1234</li>
             </ul>
-            <button type="button" class="cabinet__button">Отменить рейс</button>
+            <button type="button" class="cabinet__button" onclick="showText()">Отменить рейс</button>
           </div>
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <p>© 2021 Авиакомпания</p>
+    <footer>
+      <p>© 2021 Авиакомпания FlightPool</p>
     </footer>
-    <script src="main.js"></script>
   </body>
 </html>

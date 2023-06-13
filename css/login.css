@@ -64,11 +64,21 @@ body {
     color: #444;
   }
   
-  a {
-    color: #4CAF50;
+a {
+    display: block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 30px auto 0;
+    text-align: center;
     text-decoration: none;
+    cursor: pointer;
+    
   }
   
-  a:hover {
-    text-decoration: underline;
+  a {
+    background-color: #24a93c;
   }

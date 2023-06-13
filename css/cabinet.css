@@ -1,0 +1,155 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  
+  .nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav__list {
+    display: flex;
+  }
+  
+  .nav__item {
+    margin-right: 20px;
+  }
+  
+  .nav__link {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav__link:hover {
+    color: #24a93c;
+  }
+  
+  .nav-toggle {
+    display: none;
+  }
+  
+  .nav-toggle__item {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin-bottom: 5px;
+  }
+  
+
+  .header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .cabinet {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cabinet__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .cabinet__info-item {
+    width: 600px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+ 
+  }
+  
+  .cabinet__info-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+ 
+  }
+  
+  .cabinet__info-list {
+    margin-bottom: 20px;
+  }
+  
+  .cabinet__info-item {
+    margin-bottom: 10px;
+  }
+  
+  .cabinet__info-label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .cabinet__button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .cabinet__button:hover{
+    background-color: #24a93c;
+  }
+  
+
+  footer {
+    background-color: #fff;
+    padding: 20px;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+    
+  }
+  
+  footer a {
+    
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #333;
+    text-decoration: underline;
+  }
