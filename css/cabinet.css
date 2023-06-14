@@ -67,6 +67,7 @@
     color: white;
     padding: 50px;
     text-align: center;
+    width: 100%;
   }
   
   .header h1 {
@@ -155,9 +156,18 @@
   }
 
   @media only screen and (max-width: 600px) {
+    body{
+      overflow-x: hidden;
+    }
 
     .cabinet__info-item{
       display: flex;
+      flex-direction: column;
       justify-content: center;
+      align-items: center;
+    }
+    .header{
+      background-color: #4CAF50;
+      width: 100%;
     }
   }
