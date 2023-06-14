@@ -415,7 +415,7 @@ body {
   }
 
   
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1024px) {
     .menu-button-container {
       display: flex;
     }
