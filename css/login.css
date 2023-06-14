@@ -64,7 +64,7 @@ body {
     color: #444;
   }
   
-a {
+.enter {
     display: block;
     background-color: #4CAF50;
     color: #fff;
@@ -79,6 +79,53 @@ a {
     
   }
   
-  a {
+  .enter {
     background-color: #24a93c;
+  }
+  li{
+    list-style-type: none;
+  }
+  
+  .nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav__list {
+    display: flex;
+  }
+  
+  .nav__item {
+    margin-right: 20px;
+  }
+  
+  .nav__link {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav__link:hover {
+    color: #24a93c;
+  }
+  
+  .nav-toggle {
+    display: none;
+  }
+  
+  .nav-toggle__item {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin-bottom: 5px;
+  }
+
+  a{
+    text-decoration: none;
   }

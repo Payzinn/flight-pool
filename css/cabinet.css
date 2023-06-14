@@ -153,3 +153,11 @@
     color: #333;
     text-decoration: underline;
   }
+
+  @media only screen and (max-width: 600px) {
+
+    .cabinet__info-item{
+      display: flex;
+      justify-content: center;
+    }
+  }
