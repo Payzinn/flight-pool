@@ -6,22 +6,39 @@
   <title>Авиакомпания</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="js/main.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById("nav-menu");
+      if (menu.style.display === "block") {
+        menu.style.display = "none";
+      } else {
+        menu.style.display = "block";
+      }
+    }
+  </script>
 </head>
 
 <body>
-  <header class="header">
-    <div class="logo">Логотип компании</div>
-    <div class="nav">
-      <ul>
-        <li><a href="#promo" class="nav-link">Акции</a></li>
+  <header>
+  <section class="top-nav">
+    <div>
+      <a href="#" class="logo">Логотип компании</a>
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+      <li><a href="#promo" class="nav-link">Акции</a></li>
         <li><a href="#" class="nav-link">Поиск</a></li>
         <li><a href="#flight" class="nav-link">Регистрация на рейс</a></li>
         <li><a href="login.html" class="nav-link">Вход</a></li>
         <li><a href="registration.html" class="nav-link">Регистрация</a></li>
         <li><a href="cabinet.html" class="nav-link">Личный кабинет</a></li>
-      </ul>
-    </div>
-  </header>
+    </ul>
+  </section>
+</header>
 
   <section class="info-section">
     <h2>Узнайте, как накопить бронирования и сэкономить на перелетах</h2>
