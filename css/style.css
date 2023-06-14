@@ -6,7 +6,6 @@ body {
  }
   
   .header {
-    
     padding: 20px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
@@ -83,7 +82,7 @@ body {
   
   .trust-section {
     padding: 60px 0;
-    background-color: #f4f4f4;
+    background-color: #fff;
     text-align: center;
     
   }
@@ -329,5 +328,81 @@ body {
   footer a:hover {
     color: #333;
     text-decoration: underline;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-size: 16px;
+}
+
+.logo {
+  width: 100%;
+  text-align: center;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.menu-icon {
+  font-size: 24px;
+}
+
+.info-block img {
+  width: 50%;
+}
+
+.info-block p {
+  font-size: 14px;
+}
+
+.trust-block img {
+  width: 75%;
+}
+
+.trust-block {
+  font-size: 14px;
+}
+
+.input-field {
+  font-size: 14px;
+}
+
+.search-button {
+  width: 100%;
+}
+
+.promo-block h3 {
+  font-size: 14px;
+}
+
+.promo-block p {
+  font-size: 12px;
+}
+
+.subscribe-section h2 {
+  font-size: 14px;
+}
+
+.subs {
+  font-size: 14px;
+}
+
+.footer {
+  font-size: 14px;
+}
   }
 
