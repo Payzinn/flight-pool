@@ -8,7 +8,6 @@ body {
   .header {
     padding: 20px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-
   }
 
   * {
@@ -411,8 +410,10 @@ body {
     color: #000000;
     height: 50px;
     padding: 1em;
+    position: fixed;
+    width: 100%;
   }
-  
+
   
   @media only screen and (max-width: 768px) {
     .menu-button-container {
