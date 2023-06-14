@@ -171,4 +171,11 @@
       background-color: #4CAF50;
       width: 100%;
     }
+    .cabinet__title{
+      text-align: center;
+    }
+    .cabinet__button{
+      width: 300px;
+      height: 50px;
+    }
   }
