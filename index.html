@@ -5,19 +5,9 @@
   <meta charset="utf-8">
   <title>Авиакомпания</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script src="js/main.js"></script>
+  <script defer src="js/main.js"></script>
+  <script defer src="js/index.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script>
-    function toggleMenu() {
-      var menu = document.getElementById("nav-menu");
-      if (menu.style.display === "block") {
-        menu.style.display = "none";
-      } else {
-        menu.style.display = "block";
-      }
-    }
-    
-  </script>
 </head>
 
 <body>
@@ -32,7 +22,6 @@
   </label>
     <ul class="menu">
       <li><a href="#promo" class="nav-link">Акции</a></li>
-        <li><a href="#" class="nav-link">Поиск</a></li>
         <li><a href="#flight" class="nav-link">Регистрация на рейс</a></li>
         <li><a href="login.html" class="nav-link">Вход</a></li>
         <li><a href="registration.html" class="nav-link">Регистрация</a></li>
@@ -106,24 +95,47 @@
     <div class="promo-data">
       <div class="promo-block">
         <img src="media/promo1.png">
-        <h3>Скидка 50% на билеты в Токио</h3>
+        <h3>Скидка 50% на билеты в Краснодар</h3>
         <p>Описание акции</p>
-        <a href="##" class="promo-button">Подробнее</a>
-        <p class="promo-descr" style="display:none;">Дополнительный текст акции.</p>
+        <a href="##" class="modal-button" data-modal="#modal-1">Подробнее</a>
       </div>
       <div class="promo-block">
         <img src="media/promo2.png">
         <h3>Специальное предложение для путешественников</h3>
         <p>Описание акции</p>
-        <a href="##" class="promo-button">Подробнее</a>
+        <a href="##" class="modal-button" data-modal="#modal-2">Подробнее</a>
       </div>
       <div class="promo-block">
         <img src="media/promo3.png">
-        <h3>Скидка 30% на билеты в Барселону</h3>
+        <h3>Скидка 30% на билеты в Москву</h3>
         <p>Описание акции</p>
-        <a href="##" class="promo-button">Подробнее</a>
+        <a href="##" class="modal-button" data-modal="#modal-3">Подробнее</a>
       </div>
     </div>
+
+    <div class="modal" id="modal-1">
+      <div class="modal-content">
+        <h1>Скидка 50%</h1>
+          <p>Планируете поездку в Краснодар, но никак не можете подобрать выгодный вариант? Не беспокойтесь, мы дарим Вам эксклюзивную возможность получить скидку 50% на билеты в одну из самых интересных точек нашей страны!</p>
+          <a href="##" class="modal-close-button" data-close="true">Закрыть</a>
+      </div>
+  </div>
+  
+  <div class="modal" id="modal-2">
+      <div class="modal-content">
+        <h1>Для путешественников</h1>
+          <p>Готовы отправиться в незабываемое путешествие? Получите уникальное предложение от нашей компании для настоящих путешественников! Скидка 30% на все направления и эксклюзивные условия для максимального комфорта во время поездки!</p>
+          <a href="##" class="modal-close-button" data-close="true">Закрыть</a>
+      </div>
+  </div>
+  
+  <div class="modal" id="modal-3">
+      <div class="modal-content">
+        <h1>Скидка 30%</h1>
+          <p>Хотите отправиться в столицу, но не готовы переплачивать за билеты? Наша компания дарит вам уникальную возможность сэкономить - скидка 30% на билеты в Москву! Выбирайте дату и планируйте свое незабываемое приключение!</p>
+          <a href="##" class="modal-close-button" data-close="true">Закрыть</a>
+      </div>
+  </div>
   </section>
 
   <section class="subscribe-section">
