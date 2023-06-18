@@ -98,13 +98,13 @@
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     
  
   }
 
   .cabinet__info-item li{
-    background-color: rgb(215, 215, 215);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     width: 570px;
   }
   
@@ -128,16 +128,31 @@
   }
   
   .cabinet__button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #000000;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
     cursor: pointer;
   }
 
   .cabinet__button:hover{
-    background-color: #24a93c;
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: white;
+    transform: translateY(-7px);
   }
   
 
@@ -162,9 +177,10 @@
     text-decoration: underline;
   }
 
- @media only screen and (max-width: 768px) {
+ @media only screen and (max-width: 1024px) {
     body{
       overflow-x: hidden;
+      
     }
 
     .cabinet__info-item{
@@ -172,6 +188,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      text-align: center;
       width: 400px;
     }
     .header{
@@ -182,7 +199,29 @@
       text-align: center;
     }
     .cabinet__button{
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
       width: 300px;
       height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .cabinet__button:hover{
+      background-color: #24a93c;
+
+    }
+
+    .cabinet__info-item li{
+      width: 99%;
+    }
+
+    .header{
+      width: 100%;
     }
   } 
