@@ -11,3 +11,6 @@ function Data1() {
   alert("На ваш e-mail отправлено письмо!");
 }
 
+function confirm(){
+  alert("Ваши места сохранены")
+}

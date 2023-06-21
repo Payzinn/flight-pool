@@ -26,3 +26,14 @@ modalCloseButtons.forEach(function(button) {
         modal.classList.remove('active'); 
     });
 });
+
+const checkboxes = document.querySelectorAll('input[type="checkbox"]'); 
+const checkboxesCount = checkboxes.length; 
+
+const checkedCount = Math.round((checkboxesCount / 2)); 
+
+for (let i = 0; i < checkedCount; i++) { 
+  const randomIndex = Math.floor(Math.random() * checkboxesCount); 
+  checkboxes[randomIndex].checked = true; 
+}
+
