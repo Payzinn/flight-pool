@@ -622,7 +622,7 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    width: 80%;
+    width: 90%;
     height: 15%;
   }
 
@@ -642,6 +642,28 @@ body {
   }
 
   .subscribe-button:hover{
+    background-color: #24a93c;
+  }
+
+  .seats p {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .modal-close-button{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    height: 40%;
+  }
+
+  .modal-close-button:hover{
     background-color: #24a93c;
   }
   }
