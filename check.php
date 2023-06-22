@@ -27,7 +27,7 @@ if(mb_strlen($doc)<6 || mb_strlen($doc)>6) {
     exit();
 }
 
-if(mb_strlen($pass)<6 || mb_str;em($pass)>32) {
+if(mb_strlen($pass)<6 || mb_strlen($pass)>32) {
     echo "Недопустимая длина пароля (от 6 до 32 символов)";
     exit();
 }
@@ -37,10 +37,14 @@ if(mb_strlen($phone)<11 || mb_strlen($phone)>11) {
     exit();
 }
 
-$mysql = new mysqli('localhost:8888','root','root','register');
-$mysql->query ("INSERT INTO `users` (`login`, `name`, `last`, `doc`, `phone`, `pass`) 
-          VALUES ('$login', '$name', '$last', '$doc', '$phone', '$pass')");
 
+
+$mysql = new mysqli("127.0.0.1:8889","root","root","register");
+$mysql->query ("INSERT INTO `users` (`login`, `name`, `last`, `doc`, `phone`, `pass`) 
+VALUES ('$login', '$name', '$last', '$doc', '$phone', '$pass')");
+if (!$mysql) {
+ die("Connection failed: " . mysqli_connect_error());}
+ echo "Connected successfully";
 $mysql->close();
 
-?>
+ ?>
