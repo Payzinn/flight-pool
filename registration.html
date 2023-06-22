@@ -21,26 +21,32 @@
           </nav>
         </header>
         <h1>Регистрация в личном кабинете</h1>
-        <form>
+        <form action="check.php" method="post">
+
+          <label for="login">Логин:</label>
+          <input type="text" id="login" class="test-2-name" name="login" required><br>
+
           <label for="name">Имя:</label>
-          <input type="text" id="name" class="test-2-name" required><br>
+          <input type="text" id="name" class="test-2-name" name="name" required><br>
       
           <label for="last">Фамилия:</label>
-          <input type="text" id="last" class="test-2-last" required><br>
+          <input type="text" id="last" class="test-2-last" name="last" required><br>
       
           <label for="doc">Номер документа:</label>
-          <input type="text" id="doc" class="test-2-doc" required><br>
+          <input type="text" id="doc" class="test-2-doc" name="doc" required><br>
       
           <label for="phone">Телефон:</label>
-          <input type="tel" id="phone" class="test-2-phone" required><br>
+          <input type="tel" id="phone" class="test-2-phone" name="phone" required><br>
       
           <label for="pass">Пароль:</label>
-          <input type="password" id="pass" class="test-2-pass" required><br>
+          <input type="password" id="pass" class="test-2-pass" name="pass" required><br>
       
           <label for="pass2">Повтор пароля:</label>
           <input type="password" id="pass2" class="test-2-pass2" required><br>
       
-          <a href="cabinet.html" class="subscribe-button">Зарегистрироваться</a>
+          <button type="submit" class="subscribe-button">Зарегистрироваться</button>
         </form>
       </body>
 </html>
+
+89012622962
